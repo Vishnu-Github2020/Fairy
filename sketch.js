@@ -58,7 +58,7 @@ function draw() {
   }
   
   function keyPressed() {
-  
+  //to control Fairy's horizontal movements
 	  if(keyCode === RIGHT_ARROW){
 			 fairy.x = fairy.x + 20;
 	  }
